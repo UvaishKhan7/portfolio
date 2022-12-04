@@ -24,7 +24,7 @@ const data = [
     image: IMG3,
     title: 'Shopaholic',
     github: 'https://github.com/UvaishKhan7/shopaholic',
-    demo: 'http://shopaholic-psi.vercel.app'
+    demo: 'https://shopaholic-psi.vercel.app'
   }
 ];
 
