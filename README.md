@@ -4,4 +4,4 @@ I've created this portfolio website using reactjs. I've took the guidence from y
 
 You can click on the below link to watch a live preview.
 
-uvaish.vercel.app
+http://uvaish.vercel.app
