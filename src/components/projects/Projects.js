@@ -8,21 +8,21 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'IMDb Clone - using ReactJS',
+    title: 'IMDb Clone',
     github: 'https://github.com/UvaishKhan7/IMDb_Clone',
     demo: 'https://imdb-clone-mu.vercel.app/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'My Portfolio Website using ReactJS',
+    title: 'My Portfolio',
     github: 'https://github.com/UvaishKhan7/portfolio',
     demo: 'https://uvaish.vercel.app/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Shopaholic - E-commerce website using ReactJS',
+    title: 'Shopaholic',
     github: 'https://github.com/UvaishKhan7/shopaholic',
     demo: 'shopaholic-psi.vercel.app'
   }
