@@ -52,6 +52,12 @@
   }
   .experience_content {
     padding: 1rem;
+    justify-content: center;
+  }
+  .experience_details{
+    display: flex;
+    justify-content: center;
+    font-size: large;
   }
 }
 
@@ -63,5 +69,10 @@
   .experience_container > div {
     width: 100%;
     padding: 2rem 1rem;
+  }
+  .experience_details{
+    display: flex;
+    justify-content: center;
+    font-size: large;
   }
 }

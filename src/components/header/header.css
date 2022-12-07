@@ -65,7 +65,21 @@ header {
 /* ========= Media Queries For medium devices (tablets) ========= */
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 70vh;
+  }
+  .header_socials,
+  .scroll_down {
+    display: none;
+  }
+  .me {
+    height: 50rem;
+    width: 40rem;
+    position: absolute;
+    left: calc(50% - 20rem);
+    margin-top: 4rem;
+    border-radius: 20rem 20rem 0 0;
+    overflow: hidden;
+    padding: 2rem 0.5rem 0.5rem 0.5rem;
   }
 }
 
@@ -77,5 +91,15 @@ header {
   .header_socials,
   .scroll_down {
     display: none;
+  }
+  .me {
+    height: 50rem;
+    width: 40rem;
+    position: absolute;
+    left: calc(50% - 20rem);
+    margin-top: 4rem;
+    border-radius: 20rem 20rem 0 0;
+    overflow: hidden;
+    padding: 2rem 0.5rem 0.5rem 0.5rem;
   }
 }
