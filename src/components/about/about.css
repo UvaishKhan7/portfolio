@@ -45,8 +45,9 @@
 
 .about_card:hover {
   background: transparent;
-  border-color: var(--color-primary-variant);
+  background-color: var(--color-primary-variant);
   cursor: default;
+  transition: var(--transition);
 }
 
 .about_icon {
@@ -93,6 +94,9 @@
 
 /* ========= Media Queries For Small Devices (Mobiles) ========= */
 @media screen and (max-width: 600px) {
+  .about{
+    margin-top: 0;
+  }
   .about_me {
     width: 65%;
     margin: 0 auto 3rem;

@@ -31,7 +31,7 @@ function About() {
             <article className="about_card">
               <VscFolderLibrary className='about_icon' />
               <h5>Projects</h5>
-              <small>E-commerce, IMDb Clone, React Portfolio, Login/Signup, Age Calculator, Pair Game</small>
+              <small>E-commerce, IMDb Clone, Slack Clone, React Portfolio, Age Calculator, Pair Game, Fit-Clan</small>
             </article>
           </div>
           <p>I'm a mechanical engineer turned into frontend developer for the betterment of my future & growth. Keen to learn about new things & keep myself updated with the new technologies. I like to work on UI/UX projects by using my skills like HTML, CSS, JavaScript, ReactJS, Bootstrap, Tailwind CSS, NodeJS, GitHub etc. Currently learnig NextJS to upgrade my skills to the next level.</p>

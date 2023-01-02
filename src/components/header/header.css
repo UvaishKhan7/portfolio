@@ -1,6 +1,6 @@
 header {
   height: 110vh;
-  padding-top: 5rem;
+  padding-top: 2rem;
   overflow: hidden;
 }
 
@@ -65,7 +65,7 @@ header {
 /* ========= Media Queries For medium devices (tablets) ========= */
 @media screen and (max-width: 1024px) {
   header {
-    height: 70vh;
+    height: 60vh;
   }
   .header_socials,
   .scroll_down {
@@ -86,7 +86,7 @@ header {
 /* ========= Media Queries For Small Devices (Mobiles) ========= */
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: 55vh;
   }
   .header_socials,
   .scroll_down {

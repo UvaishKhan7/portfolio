@@ -1,7 +1,10 @@
 .projects_container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  width: 100%;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0 2rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .projects_items {
@@ -12,14 +15,16 @@
 }
 
 .projects_item {
+  max-width: 300px;
   border-radius: 1.5rem;
   filter: blur(15);
-  background-color: rgba(9, 8, 22, 0.5);
+  background-color: rgba(21, 19, 49, 0.781);
 }
 
-.projects_items:hover {
-  border-color: var(--color-primary-variant);
+.projects_item:hover {
   background: transparent;
+  background-color: var(--color-primary-variant);
+  transition: var(--transition);
 }
 
 .projects_item-image {
@@ -29,14 +34,24 @@
 
 .projects_item h3 {
   text-align: center;
-  margin: 1.2rem 0 2rem;
+  margin-top: 1rem;
 }
 
 .projects_item-cta {
   display: flex;
-  gap: 1rem;
-  margin-bottom: 1rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   justify-content: center;
+  padding: 0 0.5rem;
+}
+
+.buttons{
+  width: 100%;
+  align-items: center;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* ========= Media Queries For medium devices (tablets) ========= */
