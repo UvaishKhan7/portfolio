@@ -30,17 +30,17 @@ function Contact() {
       <div className="container contact_container">
         <div className="contact_options">
           <article className="contact_option">
-            <MdOutlineEmail className='contact_option-icon' />
+            <MdOutlineEmail className='contact_option-icon' fill='#EA4335'/>
             <h4>Email</h4>
             <a href="mailto:uvaish8248@gmail.com">Send a mail</a>
           </article>
           <article className="contact_option">
-            <RiMessengerLine className='contact_option-icon' />
+            <RiMessengerLine className='contact_option-icon' fill='#006AFF'/>
             <h4>Messenger</h4>
             <a href="https://m.me/AshuEltero" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className="contact_option">
-            <BsWhatsapp className='contact_option-icon' />
+            <BsWhatsapp className='contact_option-icon' fill='#25D366' />
             <h4>WhatsApp</h4>
             <a href="https://wa.me/918737916531" target="_blank" rel="noreferrer">Send a message</a>
           </article>

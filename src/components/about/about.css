@@ -1,7 +1,8 @@
 .about_container {
   display: grid;
-  grid-template-columns: 25% 70%;
-  gap: 10%;
+  grid-template-columns: 25% 75%;
+  gap: 5%;
+  margin: 0 auto;
 }
 
 .about_me {
@@ -52,22 +53,28 @@
 
 .about_icon {
   color: var(--color-primary);
-  font-size: 1.4rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
 .about_card h5 {
-  font-size: 0.95rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .about_card small {
-  font-size: 0.7rem;
+  font-size: 1rem;
   color: var(--color-light);
 }
 
 .about_content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
+  background-color: var(--color-bg-variant);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* ========= Media Queries For medium devices (tablets) ========= */
@@ -76,10 +83,11 @@
     grid-template-columns: 1fr;
     gap: 0;
   }
-  .about_content p{
+  .about_content p {
     text-align: justify;
+    margin: 1rem 0 1.5rem;
   }
-  .about_cards{
+  .about_cards {
     display: flex;
     flex-direction: column;
   }
@@ -87,14 +95,24 @@
     width: 70%;
     margin: 2rem auto 4rem;
   }
-  .about_content p {
-    margin: 1rem 0 1.5rem;
+  .about_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about_content > .btn{
+    width: 80%;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: center;
   }
 }
 
 /* ========= Media Queries For Small Devices (Mobiles) ========= */
 @media screen and (max-width: 600px) {
-  .about{
+  .about {
     margin-top: 0;
   }
   .about_me {

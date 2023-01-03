@@ -1,7 +1,7 @@
 .projects_container {
-  width: 100%;
+  width: 98%;
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
   padding: 0 2rem;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -35,6 +35,8 @@
 .projects_item h3 {
   text-align: center;
   margin-top: 1rem;
+  font-size: 1.5rem;
+  color: var(--color-primary);
 }
 
 .projects_item-cta {
@@ -52,6 +54,14 @@
   margin: 1rem 0;
   display: flex;
   justify-content: space-evenly;
+}
+
+.buttons>a{
+  padding: 0.5rem;
+  width: 120px;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 /* ========= Media Queries For medium devices (tablets) ========= */

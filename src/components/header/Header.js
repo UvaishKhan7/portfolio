@@ -8,13 +8,12 @@ export default function Header() {
   return (
     <header>
       <div className="container header_container">
-        <h5>Hello! I'm</h5>
+        <h3>Hello! I'm</h3>
         <h1> &lt; Uvaish Khan /&gt; </h1>
-        <h5 className="text-light">FrontEnd Developer</h5>
+        <h3 className="text-light">FrontEnd Developer</h3>
         <CTA />
         <HeaderSocials />
-        
-        <div className="me">
+        <div className="me">  
           <img src={ME} alt="me" />
         </div>
         

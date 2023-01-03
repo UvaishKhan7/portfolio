@@ -1,5 +1,6 @@
 import React from 'react';
 import { BsLinkedin, BsGithub, BsFacebook } from 'react-icons/bs';
+import './header.css'
 
 export default function HeaderSocials() {
     return (

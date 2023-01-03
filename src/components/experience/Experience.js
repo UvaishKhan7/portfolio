@@ -16,35 +16,35 @@ export default function Experience() {
                             <BsPatchCheckFill className='experience_details-icon' />
                             <div>
                                 <h4>HTML</h4>
-                                <small className='text-light'>Experienced</small>
+                                <p className='text-light'>Experienced</p>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsPatchCheckFill className='experience_details-icon' />
                             <div>
                                 <h4>CSS</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <p className='text-light'>Intermediate</p>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsPatchCheckFill className='experience_details-icon' />
                             <div>
                                 <h4>JavaScript</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <p className='text-light'>Intermediate</p>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsPatchCheckFill className='experience_details-icon' />
                             <div>
                                 <h4>ReactJS</h4>
-                                <small className='text-light'>Experienced</small>
+                                <p className='text-light'>Experienced</p>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsPatchCheckFill className='experience_details-icon' />
                             <div>
                                 <h4>Bootstrap</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <p className='text-light'>Intermediate</p>
                             </div>
                         </article>
                     </div>
@@ -59,21 +59,28 @@ export default function Experience() {
                             <BsPatchCheckFill className='experience_details-icon' />
                             <div>
                                 <h4>Node JS</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <p className='text-light'>Intermediate</p>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsPatchCheckFill className='experience_details-icon' />
                             <div>
                                 <h4>MongoDB</h4>
-                                <small className='text-light'>Basic</small>
+                                <p className='text-light'>Basic</p>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsPatchCheckFill className='experience_details-icon' />
                             <div>
                                 <h4>Express JS</h4>
-                                <small className='text-light'>Basic</small>
+                                <p className='text-light'>Basic</p>
+                            </div>
+                        </article>
+                        <article className="experience_details">
+                            <BsPatchCheckFill className='experience_details-icon' />
+                            <div>
+                                <h4>Firebase</h4>
+                                <p className='text-light'>Basic</p>
                             </div>
                         </article>
                     </div>

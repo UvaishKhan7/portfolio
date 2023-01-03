@@ -30,9 +30,17 @@
   row-gap: 2rem;
 }
 
+.experience_container > div > h3 {
+  font-size: 2rem;
+}
+
 .experience_details {
   display: flex;
   gap: 1rem;
+}
+
+.experience_details {
+  font-size: 1.2rem;
 }
 
 .experience_details-icon {
@@ -54,10 +62,13 @@
     padding: 1rem;
     justify-content: center;
   }
-  .experience_details{
+  .experience_details {
     display: flex;
     justify-content: center;
-    font-size: large;
+    font-size: 1.2rem;
+  }
+  .experience_details > div {
+    font-size: 2rem;
   }
 }
 
@@ -70,9 +81,12 @@
     width: 100%;
     padding: 2rem 1rem;
   }
-  .experience_details{
+  .experience_details {
     display: flex;
     justify-content: center;
-    font-size: large;
+    font-size: 1.2rem;
+  }
+  .experience_details > div > p {
+    font-size: 2rem;
   }
 }

@@ -1,5 +1,5 @@
 .container.contact_container {
-  width: 58%;
+  width: 65%;
   display: grid;
   grid-template-columns: 30% 58%;
   gap: 12%;
@@ -26,34 +26,43 @@
 }
 
 .contact_option-icon {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
 }
 
 .contact_option a {
-  margin-top: 0.7rem;
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
+.contact_option > h4 {
+  font-size: 1.25rem;
+  margin-top: 0.8rem;
+}
 /* ======== FORM ======== */
 
 form {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1.5rem;
 }
 
 input,
 textarea {
   width: 100%;
   padding: 1rem 1.5rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   border-radius: 0.5rem;
   background: rgba(6, 1, 29, 0.39);
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-white);
+}
+
+form > .btn {
+  width: 100%;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  font-size: 1.2rem;
 }
 
 /* ========= Media Queries For medium devices (tablets) ========= */
