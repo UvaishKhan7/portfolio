@@ -112,6 +112,12 @@ img {
   section {
     margin-top: 6rem;
   }
+  section > h2 {
+    font-size: 5rem;
+  }
+  section > h5 {
+    font-size: 3rem;
+  }
 }
 
 /* ========= Media Queries For Small Devices (Mobiles) ========= */
