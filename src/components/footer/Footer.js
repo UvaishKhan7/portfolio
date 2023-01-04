@@ -24,7 +24,7 @@ export default function Footer() {
       </div>
 
       <div className="footer_copyright">
-        <small>&copy; 2022. Created by Uvaish Khan. All rights reserved.</small>
+        <p>&copy; 2022. Created by Uvaish Khan. All rights reserved.</p>
       </div>
 
     </footer>
