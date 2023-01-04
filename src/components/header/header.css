@@ -80,12 +80,18 @@ header {
   header {
     height: 60vh;
   }
+  .header_container > h3 {
+    font-size: 2.5rem;
+  }
+  .header_container > h1 {
+    font-size: 3.5rem;
+  }
   .header_socials,
   .scroll_down {
     display: none;
   }
   .me {
-    height: 50rem;
+    height: 55rem;
     width: 40rem;
     position: absolute;
     left: calc(50% - 20rem);
@@ -93,6 +99,12 @@ header {
     border-radius: 20rem 20rem 0 0;
     overflow: hidden;
     padding: 2rem 0.5rem 0.5rem 0.5rem;
+  }
+  .cta > .btn {
+    font-size: 2.5rem;
+    width: 350px;
+    font-weight: 500;
+    letter-spacing: 1px;
   }
 }
 
@@ -106,7 +118,7 @@ header {
     display: none;
   }
   .me {
-    height: 50rem;
+    height: 55rem;
     width: 40rem;
     position: absolute;
     left: calc(50% - 20rem);

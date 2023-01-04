@@ -15,7 +15,7 @@
 }
 
 .projects_item {
-  max-width: 300px;
+  width: 400px;
   border-radius: 1.5rem;
   filter: blur(15);
   background-color: rgba(21, 19, 49, 0.781);
@@ -48,7 +48,7 @@
   padding: 0 0.5rem;
 }
 
-.buttons{
+.buttons {
   width: 100%;
   align-items: center;
   margin: 1rem 0;
@@ -56,7 +56,7 @@
   justify-content: space-evenly;
 }
 
-.buttons>a{
+.buttons > a {
   padding: 0.5rem;
   width: 120px;
   font-size: 1rem;
@@ -67,8 +67,32 @@
 /* ========= Media Queries For medium devices (tablets) ========= */
 @media screen and (max-width: 1024px) {
   .projects_container {
-    grid-template-columns: 1fr 1fr;
-    gap: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .projects_item {
+    width: 700px;
+    margin: 1rem auto;
+  }
+  .projects_item-image {
+    width: 700px;
+  }
+  .projects_item > h3 {
+    font-size: 3rem;
+  }
+  .projects_item-cta > p {
+    font-size: 2rem;
+  }
+  .projects_item-cta > .buttons > .btn{
+    width: 250px;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 600;
   }
 }
 

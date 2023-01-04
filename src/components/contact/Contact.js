@@ -52,7 +52,7 @@ function Contact() {
           <input type="text" name="name" id="" placeholder='Your Full Name' required />
           <input type="email" name="email" id="" placeholder='Your Email' required />
           <input type="text" name="subject" id="" placeholder='Your Subject' required />
-          <textarea name="message" id="" rows="7" placeholder='Your Message'></textarea>
+          <textarea name="message" id="textarea" rows="7" placeholder='Your Message'></textarea>
           <button type="submit" className='btn btn-primary'>Send Message</button>
         </form>
 
