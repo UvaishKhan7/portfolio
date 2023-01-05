@@ -21,7 +21,7 @@ function About() {
             <article className="about_card">
               <MdOutlineWorkOutline className='about_icon' />
               <h5>Experience</h5>
-              <p>Handson working experience of frontend Technologies like HTML, CSS, JavaScript, ReactJS, Bootstrap, etc.</p>
+              <p>Hands on working experience of frontend Technologies like HTML, CSS, JavaScript, ReactJS, Bootstrap, etc.</p>
             </article>
             <article className="about_card">
               <BsCodeSlash className='about_icon' />
