@@ -64,6 +64,14 @@ const data = [
     desc: 'HTML, Javascript, CSS',
     github: 'https://github.com/UvaishKhan7/Age_Calculator',
     demo: 'https://age-calculator-iota.vercel.app/'
+  },
+  {
+    id: 8,
+    image: IMG8,
+    title: 'My-Shop Static e-Commerce Website',
+    desc: 'ReactJS, React-Router, CSS, React-Icons, MUI',
+    github: 'https://github.com/uvaishkhan7/my-shop',
+    demo: 'https://my-shop-rho.vercel.app/'
   }
 ];
 
