@@ -7,6 +7,7 @@ import IMG4 from '../../assets/Portfolio.png';
 import IMG5 from '../../assets/Shopaholic.png';
 import IMG6 from '../../assets/PairGame.png';
 import IMG7 from '../../assets/AgeCalculator.png';
+import IMG8 from '../../assets/myShop.png';
 
 const data = [
   {
