@@ -6,7 +6,6 @@ import Logo from "../../public/Logo.png";
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import { XCircleIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
-import { motion } from "framer-motion";
 
 const Header = () => {
 
@@ -17,19 +16,8 @@ const Header = () => {
     }
 
     return (
-        <motion.div
-            initial={{
-                y: -100,
-                opacity: 0,
-                scale: 0
-            }}
-            animate={{
-                y: 0,
-                opacity: 1,
-                scale: 1
-            }}
-            transition={{ duration: 1 }}
-            className="max-w-[1240px] max-md:px-2 h-16 mx-auto px-4 flex justify-between items-center backdrop-blur-sm rounded-lg">
+        <div
+            className="max-w-[1240px] max-md:px-2 h-16 mx-auto px-4 flex justify-between items-center backdrop-blur-sm rounded-lg z-[9999]">
             <Link href="/" className="invert-[.25]">
                 <Image src={Logo} alt="my logo image" width={200} height={100} />
             </Link>
@@ -53,7 +41,7 @@ const Header = () => {
                         <Bars3Icon className='text-green-400 h-8 w-8 animate-pulse cursor-pointer' />
                 }
             </div>
-            <div className={!nav ? "fixed left-0 top-0 w-[60%] h-screen border-r border-r-green-400/70 bg-[#011209] flex flex-col items-center pt-5 ease-in-out duration-500 z-50 md:hidden" : "fixed left-[-100%] top-0 w-[60%] h-screen border-r border-r-green-400/70 bg-[#011209] flex flex-col items-center pt-6 ease-in-out duration-500 z-50"}>
+            <div className={!nav ? "fixed left-0 top-0 w-[60%] h-screen border-r border-r-green-400/70 bg-[#011209] flex flex-col items-center pt-5 ease-in-out duration-500 z-[99999] md:hidden" : "fixed left-[-100%] top-0 w-[60%] h-screen border-r border-r-green-400/70 bg-[#011209] flex flex-col items-center pt-6 ease-in-out duration-500 z-[99999]"}>
                 <Link href="/" className="invert-[.25] onClick={handleNav} ">
                     <Image src={Logo} alt="my logo image" width={200} height={100} />
                 </Link>
@@ -80,7 +68,7 @@ const Header = () => {
                     </li>
                 </ul>
             </div>
-        </motion.div>
+        </div>
     );
 };
 

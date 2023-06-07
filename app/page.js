@@ -31,7 +31,7 @@ export default function Home() {
         scale: 1
       }}
       transition={{ duration: 1 }}
-      className="md:h-[80%] h-[100%] overflow-hidden md:mt-20 flex flex-col space-y-8 items-center justify-center text-center -z-10"
+      className="md:h-[80%] h-[100%] md:mt-16 flex flex-col space-y-8 items-center justify-center text-center -z-10"
     >
       <BackgroundCircles />
       <Image
@@ -51,14 +51,14 @@ export default function Home() {
         <Link href="/about">
           <button className="heroButton">About</button>
         </Link>
-        <Link href="/experience">
-          <button className="heroButton">Experience</button>
-        </Link>
         <Link href="/skills">
           <button className="heroButton">Skills</button>
         </Link>
         <Link href="/projects">
           <button className="heroButton">Projects</button>
+        </Link>
+        <Link href="/contact">
+          <button className="heroButton">Contact</button>
         </Link>
       </div>
     </motion.div>
